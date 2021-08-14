@@ -1,0 +1,102 @@
+.strike {
+  text-decoration: line-through;
+}
+body {
+  margin-top: 100px !important;
+  margin-left: 10px !important;
+}
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.todo-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  /*for mobile or small screen device*/
+  #calendarTable,
+  .todo-calendar {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*for tablets or laptops or desktops*/
+  .todo-grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 1rem;
+  }
+  #calendar {
+    position: sticky;
+    top: 0;
+  }
+}
+.bs-example {
+  margin: 20px;
+}
+
+.chart {
+  padding: 20px;
+  width: 80vw;
+  height: 50vw;
+}
+.green {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 5px solid #00a896;
+  padding: 1rem;
+  border-radius: 20px;
+  color: #028090;
+}
+input:-ms-input-placeholder,
+input:-webkit-input-placeholder,
+input:placeholder,
+input {
+  color: #028090;
+}
+h3 {
+  color: #00a896;
+}
+.active {
+  background-color: #02c39a;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.logo {
+  background: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #00a896;
+}
+.container {
+  padding: 20px;
+}
+.image {
+  width: 200px;
+  border-radius: 1000%;
+}
+footer {
+  background-color: #f0f3bd;
+}
